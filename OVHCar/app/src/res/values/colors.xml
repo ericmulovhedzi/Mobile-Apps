@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+
+    <color name="grey_color">#808080</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="whitesnow">#E8CBCB</color>
+    <color name="black">#000000</color>
+    <color name="bluewish">#1b2752</color>
+    <color name="background_color">#E1DCDC</color>
+    <color name="main_activity_background">#B89A5E</color>
+    <color name="fl_grey">#cccccc</color>
+    <color name="grey">#efefef</color>
+    <color name="red">#ec2028</color>
+    <color name="red_color">#FF0000</color>
+    
+    
+    
+    <color name="green">#2dc937</color>
+    <color name="red_rbot_color">#cc3232</color>
+    <color name="Traffic_orange">#FF7701</color>
+    <color name="pressed_autonomoues">#99e4fe</color>
+    <color name="pressed_start">#43e340</color>
+    <color name="blue">#0000FF</color>
+    <color name="navy_blue">#000080</color>
+    <color name="darkblue">#00008B</color>
+</resources>

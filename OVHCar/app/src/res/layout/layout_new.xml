@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/grey"
+
+    tools:context=".MainActivity">
+
+
+
+
+
+
+<RelativeLayout
+    android:layout_centerInParent="true"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+
+
+
+    <RelativeLayout
+        android:layout_toLeftOf="@+id/center_button"
+        android:layout_width="180dp"
+        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content">
+
+
+
+        <RelativeLayout
+            android:id="@+id/flash"
+            android:layout_width="180dp"
+            android:layout_height="180dp"
+            android:clickable="true"
+            android:background="@drawable/new_layout_styling"
+            android:gravity="center"
+            android:orientation="vertical">
+
+
+
+                <ImageView
+                    android:src="@drawable/ic_iconfinder_power_new_layout"
+                    android:textColor="@color/white"
+                    android:gravity="center"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"/>
+
+
+
+
+
+        </RelativeLayout>
+
+
+
+
+    </RelativeLayout>
+
+
+
+
+
+</RelativeLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</RelativeLayout>

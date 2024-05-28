@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="#CCCCCC"
+    android:layout_height="match_parent">
+
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+
+
+    <RelativeLayout
+        android:background="@drawable/ripple_stopengine"
+        android:layout_centerInParent="true"
+        android:layout_width="300dp"
+        android:layout_height="300dp">
+
+
+
+
+        <RelativeLayout
+            android:layout_marginTop="10dp"
+            android:id="@+id/accelerate"
+            android:clickable="true"
+            android:layout_above="@+id/on_"
+            android:layout_centerHorizontal="true"
+            android:orientation="vertical"
+            android:layout_width="120dp"
+            android:background="@drawable/ripple_stopengine"
+            android:layout_height="120dp">
+
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_centerInParent="true"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+
+                <TextView
+                    android:text="ACCELERATOR"
+                    android:textSize="15dp"
+                    android:elevation="20dp"
+                    android:textColor="@color/white"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+
+
+
+        <LinearLayout
+            android:gravity="center"
+            android:layout_below="@+id/accelerate"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+
+            <RelativeLayout
+                android:layout_marginRight="10dp"
+                android:id="@+id/clutch"
+                android:clickable="true"
+                android:layout_above="@+id/on_"
+                android:layout_centerHorizontal="true"
+                android:orientation="vertical"
+                android:layout_width="120dp"
+                android:background="@drawable/ripple_stopengine"
+                android:layout_height="120dp">
+
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_centerInParent="true"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+
+
+
+
+                    <TextView
+                        android:text="CLUTCH"
+                        android:textSize="15dp"
+                        android:elevation="20dp"
+                        android:textColor="@color/white"
+                        android:gravity="center"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+
+
+                </LinearLayout>
+
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:id="@+id/brake"
+                android:layout_marginLeft="10dp"
+                android:clickable="true"
+                android:layout_above="@+id/on_"
+                android:layout_centerHorizontal="true"
+                android:orientation="vertical"
+                android:layout_width="120dp"
+                android:background="@drawable/ripple_stopengine"
+                android:layout_height="120dp">
+
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_centerInParent="true"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+
+
+
+                    <TextView
+                        android:text="BRAKE"
+                        android:textSize="15dp"
+                        android:elevation="20dp"
+                        android:textColor="@color/white"
+                        android:gravity="center"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+
+
+                </LinearLayout>
+
+            </RelativeLayout>
+
+
+
+        </LinearLayout>
+
+
+
+
+
+
+
+
+
+    </RelativeLayout>
+
+</RelativeLayout>
+
+
