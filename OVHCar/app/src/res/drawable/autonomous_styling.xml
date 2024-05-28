@@ -1,0 +1,91 @@
+<ripple xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:color="@color/grey"
+    tools:targetApi="lollipop">
+    <item android:id="@android:id/mask"
+        tools:targetApi="lollipop">
+        <shape android:shape="oval">
+            <solid android:color="@color/white" />
+            <corners  android:bottomLeftRadius="7dp"
+                android:bottomRightRadius="7dp"
+                android:topLeftRadius="7dp"
+                android:topRightRadius="7dp" />
+        </shape>
+    </item>
+
+
+    <item
+        android:id="@android:id/background">
+        <shape android:shape="rectangle">
+
+            <stroke
+                android:color="#696969"
+                android:width="5dp"/>
+            <gradient
+                android:angle="90"
+                android:endColor="#726E6E"
+                android:startColor="@color/white"
+                android:type="linear" />
+
+
+            <padding
+                android:bottom="0dp"
+                android:left="0dp"
+                android:right="0dp"
+                android:top="0dp" />
+
+            <size
+                android:height="180dp"
+                android:width="180dp" />
+            <corners
+                android:bottomLeftRadius="90dp"
+                android:bottomRightRadius="90dp"
+                android:radius="180dp"
+                android:topLeftRadius="90dp"
+                android:topRightRadius="90dp" />
+        </shape>
+    </item>
+
+
+
+
+    <item
+
+        android:top="2dp"
+        android:bottom="2dp"
+        android:left="2dp"
+        android:right="2dp"
+        android:id="@android:id/background">
+        <shape android:shape="rectangle">
+
+            <stroke
+                android:width="2dp"
+                android:color="@color/red"/>
+            <gradient
+                android:angle="90"
+                android:endColor="#726E6E"
+                android:startColor="#DCDCDC"
+                android:type="linear" />
+
+
+            <padding
+                android:bottom="0dp"
+                android:left="0dp"
+                android:right="0dp"
+                android:top="0dp" />
+
+            <size
+                android:height="180dp"
+                android:width="180dp" />
+            <corners
+                android:bottomLeftRadius="90dp"
+                android:bottomRightRadius="90dp"
+                android:radius="180dp"
+                android:topLeftRadius="90dp"
+                android:topRightRadius="90dp" />
+        </shape>
+    </item>
+
+
+
+</ripple>
