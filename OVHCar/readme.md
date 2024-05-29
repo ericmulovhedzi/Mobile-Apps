@@ -2,6 +2,9 @@
 ===
 OVH Electric Vehicle App that enables your car to steer, accelerate and brake automatically with full self-driving or autopilot or autonomous capability.
 
+http://ovhstore.com/?p=details&_ixdl=11
+
+
 ![My Picture](Screen-Shot-Hardware-2024-05-29.png)
 
 OVH Car Model eV-1 mobile app enables you to steer, accelerate and brake autonomously with full self-driving capabilities.
