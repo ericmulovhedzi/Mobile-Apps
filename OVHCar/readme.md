@@ -11,4 +11,4 @@ Spider Black's battery subsidiary, Lithium OVH Battery, forms an integral part o
 Hardware Integration 
 --
 
-![My Picture](OVHCarApp-Shot-2024-05-29.png)
+![My Picture](Screen-Shot-Hardware-2024-05-29.png)
